@@ -1,0 +1,58 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-16 15:29:21
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-16 15:56:19
+*/*{
+    padding: 0;
+    margin: 0;
+}
+.table,.input{
+    width: 800px;
+    margin: 50px auto;
+}
+ul{
+    list-style: none;
+    display: table;
+    clear: both;
+    width: 100%;
+}
+li{
+    float: left;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #363636;
+}
+span{
+    width:25%;
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+}
+label,input{
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+label{
+    text-align: right;
+    width: 200px;
+    display: inline-block;
+}
+input{
+    width: 250px;
+}
+button{
+    width: 60px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: lime;
+    border:none;
+    float: left;
+}
+.add{
+    margin-left: 200px;
+}

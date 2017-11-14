@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>增删改查</title>
+	<link rel="stylesheet" href="tab.css">
+</head>
+<body>
+	<div class="table">
+		<ul>
+			<li>
+				<span>编号</span>
+				<span>商品</span>
+				<span>内容描述</span>
+				<span>操作</span>
+			</li>
+			<li>
+				<span>1</span>
+				<span>电脑</span>
+				<span>华硕笔记本</span>
+				<span>
+					<button class="del">删除</button>
+					<button class="mod">修改</button>
+				</span>
+			</li>
+		</ul>
+	</div>
+	<div class="input">
+		<label for="">商品:</label><input type="text"/><br/>
+		<label for="">内容描述:</label><input type="text"/><br/>
+		<input type="hidden"/>
+		<button class="add" id="add">添加</button>
+	</div>
+	
+	<script src="../jquery-1.11.3.js"></script>
+	<script src="jquery.js"></script>
+</body>
+</html>
+
+
